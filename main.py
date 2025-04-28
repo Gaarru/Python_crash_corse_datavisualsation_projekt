@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-""" ## Följt med i koden från boken
+
 import time
 def get_time():
     time_now_unformated = time.strftime("%b%d-%H-%p-%M")
@@ -35,7 +35,7 @@ ax.tick_params(labelsize=14)
 plt.savefig(f"{time_string}_squares_plot.png", bbox_inches='tight')
 
 plt.show()
-"""
+
 
 # 15.1, 15.2 Cubes plot some cube numbers:
 
